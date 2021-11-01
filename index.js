@@ -5,18 +5,18 @@ function greatestOfTwo(intOne, intTwo){
 
 //2
 function greatestOfThree(intOne, intTwo, intThree){
-  return intOne > intTwo && intOne > intThree ? intOne : intTwo > intOne && intTwo > intThree ? intTwo : intThree;
+  return intOne > intTwo && intOne > intThree ? intOne : intTwo > intThree ? intTwo : intThree;
 }
 
 //3
 function greatestOfFour(intOne, intTwo, intThree, intFour){
-  return intOne > intTwo && intOne > intThree && intOne > intFour ? intOne : intTwo > intOne && intTwo > intThree && intTwo > intFour ? intTwo : intThree > intOne && intThree > intTwo && intThree > intFour ? intThree : intFour ;
+  return intOne > intTwo && intOne > intThree && intOne > intFour ? intOne : intTwo > intThree && intTwo > intFour ? intTwo : intThree > intFour ? intThree : intFour ;
 }
 
 
 //4
 function leastOfFour(intOne, intTwo, intThree, intFour){
-  return intOne < intTwo && intOne < intThree && intOne < intFour ? intOne : intTwo < intOne && intTwo < intThree && intTwo < intFour ? intTwo : intThree < intOne && intThree < intTwo && intThree < intFour ? intThree : intFour ;
+  return intOne < intTwo && intOne < intThree && intOne < intFour ? intOne : intTwo < intThree && intTwo < intFour ? intTwo : intThree < intFour ? intThree : intFour ;
 }
 
 
